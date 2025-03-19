@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import NewApp from './my_todo/components/NewApp';
 
 function App() {
   return (
     <div className="App">
-     <h1>Geoinformatyka rządzi</h1>
+      <NewApp />
     </div>
-  );
+  )
 }
 
 export default App;
